@@ -1,0 +1,285 @@
+body {
+  margin: 0;
+  background-color: lightsteelblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content {
+  width: 90vw;
+  display: flex;
+  color: darkslategrey;
+}
+.content .leftArea {
+  width: 30vw;
+  height: 90vh;
+  margin-left: 20vmin;
+  margin-top: 3vmin;
+}
+.content .leftArea .zoneOne {
+  width: 40vmin;
+  height: 18vmin;
+  background-color: aliceblue;
+  border-radius: 5px;
+  margin-bottom: 7vmin;
+}
+.content .leftArea .zoneOne .text {
+  display: flex;
+  margin-left: 3vmin;
+}
+.content .leftArea .zoneOne .text p {
+  font-size: 18pt;
+  margin-bottom: 0;
+}
+.content .leftArea .zoneOne .text small {
+  height: 3vmin;
+  margin-left: 4vmin;
+  margin-top: 3vmin;
+}
+.content .leftArea .zoneOne .temperature {
+  display: flex;
+  margin-left: 3.5vmin;
+}
+.content .leftArea .zoneOne .temperature p {
+  font-size: 14pt;
+}
+.content .leftArea .zoneOne .temperature #imgOne {
+  margin-left: 5vmin;
+  margin-top: 0;
+}
+.content .leftArea .zoneTwo {
+  width: 40vmin;
+  height: 18vmin;
+  background-color: aliceblue;
+  border-radius: 5px;
+  margin-bottom: 7vmin;
+}
+.content .leftArea .zoneTwo .text {
+  display: flex;
+  margin-left: 3vmin;
+}
+.content .leftArea .zoneTwo .text p {
+  font-size: 18pt;
+  margin-bottom: 0;
+}
+.content .leftArea .zoneTwo .text small {
+  height: 3vmin;
+  margin-left: 4vmin;
+  margin-top: 3vmin;
+}
+.content .leftArea .zoneTwo .temperature {
+  display: flex;
+  margin-left: 3.5vmin;
+}
+.content .leftArea .zoneTwo .temperature p {
+  font-size: 14pt;
+}
+.content .leftArea .zoneTwo .temperature #imgTwo {
+  margin-left: 5vmin;
+  margin-top: 0;
+}
+.content .leftArea .zoneThree {
+  width: 40vmin;
+  height: 18vmin;
+  background-color: aliceblue;
+  border-radius: 5px;
+  margin-bottom: 7vmin;
+}
+.content .leftArea .zoneThree .text {
+  display: flex;
+  margin-left: 3vmin;
+}
+.content .leftArea .zoneThree .text p {
+  font-size: 18pt;
+  margin-bottom: 0;
+}
+.content .leftArea .zoneThree .text small {
+  height: 3vmin;
+  margin-left: 4vmin;
+  margin-top: 3vmin;
+}
+.content .leftArea .zoneThree .temperature {
+  display: flex;
+  margin-left: 3.5vmin;
+}
+.content .leftArea .zoneThree .temperature p {
+  font-size: 14pt;
+}
+.content .leftArea .zoneThree .temperature #imgThree {
+  margin-left: 5vmin;
+  margin-top: 0;
+}
+.content .leftArea .zoneFour {
+  width: 40vmin;
+  height: 18vmin;
+  background-color: aliceblue;
+  border-radius: 5px;
+  margin-bottom: 7vmin;
+}
+.content .leftArea .zoneFour .text {
+  display: flex;
+  margin-left: 3vmin;
+}
+.content .leftArea .zoneFour .text p {
+  font-size: 18pt;
+  margin-bottom: 0;
+}
+.content .leftArea .zoneFour .text small {
+  height: 3vmin;
+  margin-left: 4vmin;
+  margin-top: 3vmin;
+}
+.content .leftArea .zoneFour .temperature {
+  display: flex;
+  margin-left: 3.5vmin;
+}
+.content .leftArea .zoneFour .temperature p {
+  font-size: 14pt;
+}
+.content .leftArea .zoneFour .temperature #imgFour {
+  margin-left: 5vmin;
+  margin-top: 0;
+}
+.content .middleArea {
+  width: 30vw;
+  height: 80vh;
+  margin-top: 8vmin;
+}
+.content .middleArea #taiwanImg:hover {
+  scale: 1.1;
+  opacity: 0.8;
+  transform: rotate(360deg);
+  transition: 10s;
+}
+.content .middleArea #taiwanImg:active {
+  scale: 0.9;
+}
+.content .rightArea {
+  width: 30vw;
+  height: 90vh;
+  margin-left: 10vmin;
+  margin-top: 3vmin;
+}
+.content .rightArea .zoneFive {
+  width: 40vmin;
+  height: 18vmin;
+  background-color: aliceblue;
+  border-radius: 5px;
+  margin-bottom: 7vmin;
+}
+.content .rightArea .zoneFive .text {
+  display: flex;
+  margin-left: 3vmin;
+}
+.content .rightArea .zoneFive .text p {
+  font-size: 18pt;
+  margin-bottom: 0;
+}
+.content .rightArea .zoneFive .text small {
+  height: 3vmin;
+  margin-left: 4vmin;
+  margin-top: 3vmin;
+}
+.content .rightArea .zoneFive .temperature {
+  display: flex;
+  margin-left: 3.5vmin;
+}
+.content .rightArea .zoneFive .temperature p {
+  font-size: 14pt;
+}
+.content .rightArea .zoneFive .temperature #imgFive {
+  margin-left: 5vmin;
+  margin-top: 0;
+}
+.content .rightArea .zoneSix {
+  width: 40vmin;
+  height: 18vmin;
+  background-color: aliceblue;
+  border-radius: 5px;
+  margin-bottom: 7vmin;
+}
+.content .rightArea .zoneSix .text {
+  display: flex;
+  margin-left: 3vmin;
+}
+.content .rightArea .zoneSix .text p {
+  font-size: 18pt;
+  margin-bottom: 0;
+}
+.content .rightArea .zoneSix .text small {
+  height: 3vmin;
+  margin-left: 4vmin;
+  margin-top: 3vmin;
+}
+.content .rightArea .zoneSix .temperature {
+  display: flex;
+  margin-left: 3.5vmin;
+}
+.content .rightArea .zoneSix .temperature p {
+  font-size: 14pt;
+}
+.content .rightArea .zoneSix .temperature #imgSix {
+  margin-left: 5vmin;
+  margin-top: 0;
+}
+.content .rightArea .zoneSeven {
+  width: 40vmin;
+  height: 18vmin;
+  background-color: aliceblue;
+  border-radius: 5px;
+  margin-bottom: 7vmin;
+}
+.content .rightArea .zoneSeven .text {
+  display: flex;
+  margin-left: 3vmin;
+}
+.content .rightArea .zoneSeven .text p {
+  font-size: 18pt;
+  margin-bottom: 0;
+}
+.content .rightArea .zoneSeven .text small {
+  height: 3vmin;
+  margin-left: 4vmin;
+  margin-top: 3vmin;
+}
+.content .rightArea .zoneSeven .temperature {
+  display: flex;
+  margin-left: 3.5vmin;
+}
+.content .rightArea .zoneSeven .temperature p {
+  font-size: 14pt;
+}
+.content .rightArea .zoneSeven .temperature #imgSeven {
+  margin-left: 5vmin;
+  margin-top: 0;
+}
+.content .rightArea .zoneEight {
+  width: 40vmin;
+  height: 18vmin;
+  background-color: aliceblue;
+  border-radius: 5px;
+  margin-bottom: 7vmin;
+}
+.content .rightArea .zoneEight .text {
+  display: flex;
+  margin-left: 3vmin;
+}
+.content .rightArea .zoneEight .text p {
+  font-size: 18pt;
+  margin-bottom: 0;
+}
+.content .rightArea .zoneEight .text small {
+  height: 3vmin;
+  margin-left: 4vmin;
+  margin-top: 3vmin;
+}
+.content .rightArea .zoneEight .temperature {
+  display: flex;
+  margin-left: 3.5vmin;
+}
+.content .rightArea .zoneEight .temperature p {
+  font-size: 14pt;
+}
+.content .rightArea .zoneEight .temperature #imgEight {
+  margin-left: 5vmin;
+  margin-top: 0;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,346 @@
+body{
+    margin: 0;
+    background-color: lightsteelblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content{
+    width: 90vw;
+    display: flex;
+    color: darkslategrey;
+
+    .leftArea{
+        width: 30vw;
+        height: 90vh;
+        margin-left: 20vmin;
+        margin-top: 3vmin;
+
+        .zoneOne{
+            width: 40vmin;
+            height: 18vmin;
+            background-color:aliceblue;
+            border-radius: 5px;
+            margin-bottom: 7vmin;
+
+            .text{
+                display: flex;
+                margin-left: 3vmin;
+
+                p{
+                    font-size: 18pt;
+                    margin-bottom: 0;
+                }
+
+                small{
+                    height: 3vmin;
+                    margin-left: 4vmin;
+                    margin-top: 3vmin;
+                }
+            }
+
+            .temperature{
+                display: flex;
+                margin-left: 3.5vmin;
+
+                p{
+                    font-size: 14pt;
+                }
+
+                #imgOne{
+                    margin-left: 5vmin;
+                    margin-top: 0;
+                }
+            }
+        }
+        .zoneTwo{
+            width: 40vmin;
+            height: 18vmin;
+            background-color:aliceblue;
+            border-radius: 5px;
+            margin-bottom: 7vmin;
+
+            .text{
+                display: flex;
+                margin-left: 3vmin;
+
+                p{
+                    font-size: 18pt;
+                    margin-bottom: 0;
+                }
+
+                small{
+                    height: 3vmin;
+                    margin-left: 4vmin;
+                    margin-top: 3vmin;
+                }
+            }
+
+            .temperature{
+                display: flex;
+                margin-left: 3.5vmin;
+
+                p{
+                    font-size: 14pt;
+                }
+
+                #imgTwo{
+                    margin-left: 5vmin;
+                    margin-top: 0;
+                }
+            }
+        }
+        .zoneThree{
+            width: 40vmin;
+            height: 18vmin;
+            background-color:aliceblue;
+            border-radius: 5px;
+            margin-bottom: 7vmin;
+
+            .text{
+                display: flex;
+                margin-left: 3vmin;
+
+                p{
+                    font-size: 18pt;
+                    margin-bottom: 0;
+                }
+
+                small{
+                    height: 3vmin;
+                    margin-left: 4vmin;
+                    margin-top: 3vmin;
+                }
+            }
+
+            .temperature{
+                display: flex;
+                margin-left: 3.5vmin;
+
+                p{
+                    font-size: 14pt;
+                }
+
+                #imgThree{
+                    margin-left: 5vmin;
+                    margin-top: 0;
+                }
+            }
+        }
+        .zoneFour{
+            width: 40vmin;
+            height: 18vmin;
+            background-color:aliceblue;
+            border-radius: 5px;
+            margin-bottom: 7vmin;
+
+            .text{
+                display: flex;
+                margin-left: 3vmin;
+
+                p{
+                    font-size: 18pt;
+                    margin-bottom: 0;
+                }
+
+                small{
+                    height: 3vmin;
+                    margin-left: 4vmin;
+                    margin-top: 3vmin;
+                }
+            }
+
+            .temperature{
+                display: flex;
+                margin-left: 3.5vmin;
+
+                p{
+                    font-size: 14pt;
+                }
+
+                #imgFour{
+                    margin-left: 5vmin;
+                    margin-top: 0;
+                }
+            }
+        }
+    
+    }
+
+    .middleArea{
+        width: 30vw;
+        height: 80vh;
+        margin-top: 8vmin;
+
+        #taiwanImg{
+            &:hover{
+                scale: 1.1;
+                opacity: 0.8;
+                transform: rotate(360deg);
+                transition: 10s;
+            }
+            &:active{
+                scale: 0.9;
+            }
+        }
+    }
+
+    .rightArea{
+        width: 30vw;
+        height: 90vh;
+        margin-left: 10vmin;
+        margin-top: 3vmin;
+
+        .zoneFive{
+            width: 40vmin;
+            height: 18vmin;
+            background-color:aliceblue;
+            border-radius: 5px;
+            margin-bottom: 7vmin;
+
+            .text{
+                display: flex;
+                margin-left: 3vmin;
+
+                p{
+                    font-size: 18pt;
+                    margin-bottom: 0;
+                }
+
+                small{
+                    height: 3vmin;
+                    margin-left: 4vmin;
+                    margin-top: 3vmin;
+                }
+            }
+
+            .temperature{
+                display: flex;
+                margin-left: 3.5vmin;
+
+                p{
+                    font-size: 14pt;
+                }
+
+                #imgFive{
+                    margin-left: 5vmin;
+                    margin-top: 0;
+                }
+            }
+        }
+        .zoneSix{
+            width: 40vmin;
+            height: 18vmin;
+            background-color:aliceblue;
+            border-radius: 5px;
+            margin-bottom: 7vmin;
+
+            .text{
+                display: flex;
+                margin-left: 3vmin;
+
+                p{
+                    font-size: 18pt;
+                    margin-bottom: 0;
+                }
+
+                small{
+                    height: 3vmin;
+                    margin-left: 4vmin;
+                    margin-top: 3vmin;
+                }
+            }
+
+            .temperature{
+                display: flex;
+                margin-left: 3.5vmin;
+
+                p{
+                    font-size: 14pt;
+                }
+
+                #imgSix{
+                    margin-left: 5vmin;
+                    margin-top: 0;
+                }
+            }
+        }
+        .zoneSeven{
+            width: 40vmin;
+            height: 18vmin;
+            background-color:aliceblue;
+            border-radius: 5px;
+            margin-bottom: 7vmin;
+
+            .text{
+                display: flex;
+                margin-left: 3vmin;
+
+                p{
+                    font-size: 18pt;
+                    margin-bottom: 0;
+                }
+
+                small{
+                    height: 3vmin;
+                    margin-left: 4vmin;
+                    margin-top: 3vmin;
+                }
+            }
+
+            .temperature{
+                display: flex;
+                margin-left: 3.5vmin;
+
+                p{
+                    font-size: 14pt;
+                }
+
+                #imgSeven{
+                    margin-left: 5vmin;
+                    margin-top: 0;
+                }
+            }
+        }
+        .zoneEight{
+            width: 40vmin;
+            height: 18vmin;
+            background-color:aliceblue;
+            border-radius: 5px;
+            margin-bottom: 7vmin;
+
+            .text{
+                display: flex;
+                margin-left: 3vmin;
+
+                p{
+                    font-size: 18pt;
+                    margin-bottom: 0;
+                }
+
+                small{
+                    height: 3vmin;
+                    margin-left: 4vmin;
+                    margin-top: 3vmin;
+                }
+            }
+
+            .temperature{
+                display: flex;
+                margin-left: 3.5vmin;
+
+                p{
+                    font-size: 14pt;
+                }
+
+                #imgEight{
+                    margin-left: 5vmin;
+                    margin-top: 0;
+                }
+            }
+        }
+    
+    }
+}
+
+
+
